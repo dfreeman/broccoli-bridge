@@ -1,0 +1,29 @@
+{
+  "name": "broccoli-bridge",
+  "description": "A utility for bridging dependencies between Broccoli nodes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "dfreeman/broccoli-bridge",
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "broccoli-merge-trees": "^3.0.0",
+    "broccoli-test-helper": "^1.3.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "co": "^4.6.0",
+    "eslint": "^5.2.0",
+    "eslint-plugin-node": "^7.0.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "broccoli-plugin": "^1.3.0",
+    "fs-extra": "^7.0.0",
+    "symlink-or-copy": "^1.2.0"
+  }
+}
