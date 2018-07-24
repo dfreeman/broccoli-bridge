@@ -1,4 +1,4 @@
-# broccoli-bridge
+# broccoli-bridge [![Build Status](https://travis-ci.org/dfreeman/broccoli-bridge.svg?branch=master)](https://travis-ci.org/dfreeman/broccoli-bridge)
 
 A utility for bridging dependencies between [Broccoli](https://github.com/broccolijs/broccoli) nodes, even if they aren't necessarily available at the time of instantiation.
 

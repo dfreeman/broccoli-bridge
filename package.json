@@ -9,7 +9,7 @@
     "node": ">= 6.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "eslint . && mocha"
   },
   "devDependencies": {
     "broccoli-merge-trees": "^3.0.0",
